@@ -10,7 +10,9 @@
     'author': 'Sergio',
     'license': 'LGPL-3',
     'depends': ['point_of_sale', 'stock'],
-    'data': [],
+    'data': [
+        'views/product_template_views.xml',
+    ],
     'installable': True,
     'application': True,
     'auto_install': False,
