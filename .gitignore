@@ -1,0 +1,13 @@
+# Python compilado y caché
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+.venv/
+env/
+
+# Datos persistentes de Docker (si los mapeaste a carpetas locales)
+/data/
+
+# Archivos de configuración de Odoo que no deben ser públicos
+*.conf
