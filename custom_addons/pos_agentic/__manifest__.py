@@ -12,6 +12,7 @@
     'depends': ['point_of_sale', 'stock'],
     'data': [
         'views/product_template_views.xml',
+        'data/ir_cron_data.xml',  # <--- Agrega esta línea
     ],
     'installable': True,
     'application': True,
