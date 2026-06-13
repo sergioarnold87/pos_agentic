@@ -11,3 +11,6 @@ env/
 
 # Archivos de configuración de Odoo que no deben ser públicos
 *.conf
+**/.env
+**/.venv
+**/__pycache__
