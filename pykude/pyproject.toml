@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pykude"
+description = "Python library for generating KuDE PDF from SIFEN XML (Paraguay)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "mileo", email = "mileo@kmee.com.br" },
+]
+keywords = [
+    "sifen", "kude", "factura-electronica", "paraguay", "ekuatia",
+    "pdf", "documento-electronico", "set", "fiscal",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business :: Financial",
+]
+dependencies = [
+    "fpdf2>=2.7.0",
+    "lxml",
+    "python-barcode",
+    "phonenumbers",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/KMEE/pykude"
+Source = "https://github.com/KMEE/pykude"
+
+[project.optional-dependencies]
+qrcode = ["qrcode[pil]"]
+cli = ["click", "PyYAML"]
+all = ["qrcode[pil]", "click", "PyYAML"]
+test = [
+    "pytest",
+    "pytest-cov",
+    "qrcode[pil]",
+]
+
+[project.scripts]
+pfr = "pykude.__main__:cli"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["pykude*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "pykude.__version__"}
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
