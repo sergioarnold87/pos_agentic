@@ -18,15 +18,23 @@ class ProductTemplate(models.Model):
         products = self.search([('is_agentic_monitored', '=', True)])
         for product in products:
             if product.agent_stock_priority == '3' and product.qty_available < 10:
-                # 1. Chatter
+                # 1. Chatter (Voz Interna)
                 product.message_post(body=f"🚀 ALERTA: Stock crítico ({product.qty_available})")
                 
-                # 2. Webhook (IP estándar de Docker Bridge en Linux)
+                # 2. Webhook (Voz Externa - Contrato API Corregido)
                 try:
-                    # En Linux, 172.17.0.1 suele ser la IP del host vista desde Docker
-                    middleware_url = "http://172.17.0.1:8000/webhook/odoo_stock_alert"
-                    payload = {"product_name": product.name, "stock_qty": product.qty_available}
+                    # Ruta corregida para coincidir con FastAPI
+                    middleware_url = "http://172.17.0.1:8000/api/v1/agent/webhook"
+                    
+                    # Diccionario JSON corregido para coincidir con las llaves que espera FastAPI
+                    payload = {
+                        "product_name": product.name,
+                        "stock_level": product.qty_available,
+                        "intent": "Generar orden de abastecimiento automático",
+                        "agent_stock_priority": "critical"
+                    }
+                    
                     requests.post(middleware_url, json=payload, timeout=2)
-                    _logger.info("✅ Señal enviada al middleware")
+                    _logger.info(f"✅ Señal enviada al middleware para: {product.name}")
                 except Exception as e:
                     _logger.error(f"❌ Error de conexión: {e}")
