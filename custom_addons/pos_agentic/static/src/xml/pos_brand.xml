@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="pos_agentic.ChromeInheritBrand" t-inherit="point_of_sale.Chrome" t-inherit-mode="extension" owl="1">
+        <xpath expr="//img[contains(@class, 'pos-logo') or hasclass('pos-logo')]" position="replace">
+            <div class="arandu-brand" style="display: inline-flex !important; align-items: center !important; height: 100% !important; max-height: 48px !important; vertical-align: middle !important;">
+                <img src="/pos_agentic/static/description/logo.png" 
+                     alt="Cerebro IA" 
+                     class="arandu-logo" 
+                     style="height: 32px !important; width: auto !important; max-height: 32px !important; margin-right: 8px !important; filter: invert(1) !important; mix-blend-mode: screen !important; display: inline-block !important;"/>
+                <span class="arandu-name" style="font-size: 18px !important; font-weight: 500 !important; color: #ffffff !important; white-space: nowrap !important; display: inline-block !important; line-height: 32px !important;">
+                    arandu<b style="font-weight: 700 !important; color: #00E676 !important;">POS</b>
+                </span>
+            </div>
+        </xpath>
+    </t>
+</templates>
