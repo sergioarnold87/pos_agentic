@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rDE xmlns="http://ekuatia.set.gov.py/sifen/xsd">
+  <dVerFor>150</dVerFor>
+  <DE Id="01800695631001001000000712024120517301234567">
+    <dDVId>4</dDVId>
+    <dFecFirma>2024-12-05T17:30:12</dFecFirma>
+    <gOpeDE>
+      <iTipEmi>1</iTipEmi>
+      <dDesTipEmi>Normal</dDesTipEmi>
+      <dCodSeg>000000007</dCodSeg>
+    </gOpeDE>
+    <gTimb>
+      <iTiDE>1</iTiDE>
+      <dDesTiDE>Factura electrónica</dDesTiDE>
+      <dNumTim>12345678</dNumTim>
+      <dEst>001</dEst>
+      <dPunExp>001</dPunExp>
+      <dNumDoc>0000007</dNumDoc>
+      <dFeIniT>2024-01-01</dFeIniT>
+      <dFeFinT>2025-12-31</dFeFinT>
+    </gTimb>
+    <gDatGralOpe>
+      <dFeEmiDE>2024-12-05T17:30:12</dFeEmiDE>
+      <gOpeCom>
+        <iTipTra>1</iTipTra>
+        <dDesTipTra>Venta de mercadería</dDesTipTra>
+        <iTImp>1</iTImp>
+        <dDesTImp>IVA</dDesTImp>
+        <cMoneOpe>PYG</cMoneOpe>
+        <dDesMoneOpe>Guarani</dDesMoneOpe>
+      </gOpeCom>
+      <gEmis>
+        <dRucEm>80069563</dRucEm>
+        <dDVEmi>1</dDVEmi>
+        <iTipCont>1</iTipCont>
+        <dNomEmi>Empresa Demo S.A.</dNomEmi>
+        <dDirEmi>Av. España 1234</dDirEmi>
+        <dNumCas>1234</dNumCas>
+        <cDepEmi>1</cDepEmi>
+        <dDesDepEmi>CAPITAL</dDesDepEmi>
+        <cDisEmi>1</cDisEmi>
+        <dDesDisEmi>ASUNCION (DISTRITO)</dDesDisEmi>
+        <cCiuEmi>1</cCiuEmi>
+        <dDesCiuEmi>ASUNCION (DISTRITO)</dDesCiuEmi>
+        <dTelEmi>021123456</dTelEmi>
+        <dEmailE>demo@empresa.com.py</dEmailE>
+        <gActEco>
+          <cActEco>47111</cActEco>
+          <dDesActEco>Venta al por menor</dDesActEco>
+        </gActEco>
+      </gEmis>
+      <gDatRec>
+        <iNatRec>1</iNatRec>
+        <iTiOpe>1</iTiOpe>
+        <cPaisRec>PRY</cPaisRec>
+        <dDesPaisRe>Paraguay</dDesPaisRe>
+        <iTiContRec>1</iTiContRec>
+        <dRucRec>4192083</dRucRec>
+        <dDVRec>5</dDVRec>
+        <dNomRec>Supermercado Gran Paraguay S.R.L.</dNomRec>
+        <dDirRec>Av. Mariscal López 3456</dDirRec>
+        <dTelRec>021987654</dTelRec>
+        <dEmailRec>compras@granparaguay.com.py</dEmailRec>
+      </gDatRec>
+    </gDatGralOpe>
+    <gDtipDE>
+      <gCamFE>
+        <iIndPres>1</iIndPres>
+        <dDesIndPres>Operación presencial</dDesIndPres>
+      </gCamFE>
+      <gCamCond>
+        <iCondOpe>2</iCondOpe>
+        <dDCondOpe>Crédito</dDCondOpe>
+        <gPagCred>
+          <iCondCred>1</iCondCred>
+          <dDCondCred>Plazo</dDCondCred>
+          <dPlazoCre>30 días</dPlazoCre>
+        </gPagCred>
+      </gCamCond>
+      <gCamItem>
+        <dCodInt>ARROZ01</dCodInt>
+        <dDesProSer>Arroz tipo 1 paquete 1kg</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>12500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>37500</dTotOpeItem>
+          <dTotOpeGs>37500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>34090</dBasGravIVA>
+          <dLiqIVAItem>3410</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>ACEITE1</dCodInt>
+        <dDesProSer>Aceite de girasol 900ml</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>18500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>55500</dTotOpeItem>
+          <dTotOpeGs>55500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>50454</dBasGravIVA>
+          <dLiqIVAItem>5046</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>FIDEOS1</dCodInt>
+        <dDesProSer>Fideos spaghetti 500g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>8500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>25500</dTotOpeItem>
+          <dTotOpeGs>25500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>23181</dBasGravIVA>
+          <dLiqIVAItem>2319</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>AZUCAR1</dCodInt>
+        <dDesProSer>Azúcar refinada 1kg</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>9800</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>29400</dTotOpeItem>
+          <dTotOpeGs>29400</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>26727</dBasGravIVA>
+          <dLiqIVAItem>2673</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>YERBA01</dCodInt>
+        <dDesProSer>Yerba mate compuesta 500g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>22000</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>66000</dTotOpeItem>
+          <dTotOpeGs>66000</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>60000</dBasGravIVA>
+          <dLiqIVAItem>6000</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>LECHE01</dCodInt>
+        <dDesProSer>Leche entera UHT 1L</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>9500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>28500</dTotOpeItem>
+          <dTotOpeGs>28500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>25909</dBasGravIVA>
+          <dLiqIVAItem>2591</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>HARINA1</dCodInt>
+        <dDesProSer>Harina de trigo 000 1kg</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>7200</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>21600</dTotOpeItem>
+          <dTotOpeGs>21600</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>19636</dBasGravIVA>
+          <dLiqIVAItem>1964</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>GALLT01</dCodInt>
+        <dDesProSer>Galletas dulces surtidas 400g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>15800</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>47400</dTotOpeItem>
+          <dTotOpeGs>47400</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>43090</dBasGravIVA>
+          <dLiqIVAItem>4310</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>CAFE001</dCodInt>
+        <dDesProSer>Café molido premium 250g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>28500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>85500</dTotOpeItem>
+          <dTotOpeGs>85500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>77727</dBasGravIVA>
+          <dLiqIVAItem>7773</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>JUGO001</dCodInt>
+        <dDesProSer>Jugo de naranja natural 1L</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>14200</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>42600</dTotOpeItem>
+          <dTotOpeGs>42600</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>38727</dBasGravIVA>
+          <dLiqIVAItem>3873</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>ATUN001</dCodInt>
+        <dDesProSer>Atún en lata en aceite 170g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>19500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>58500</dTotOpeItem>
+          <dTotOpeGs>58500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>53181</dBasGravIVA>
+          <dLiqIVAItem>5319</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>JABON01</dCodInt>
+        <dDesProSer>Jabón de tocador pack x3</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>16800</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>50400</dTotOpeItem>
+          <dTotOpeGs>50400</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>45818</dBasGravIVA>
+          <dLiqIVAItem>4582</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>DETERG1</dCodInt>
+        <dDesProSer>Detergente líquido 1L</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>24500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>73500</dTotOpeItem>
+          <dTotOpeGs>73500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>66818</dBasGravIVA>
+          <dLiqIVAItem>6682</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>PAPEL01</dCodInt>
+        <dDesProSer>Papel higiénico doble hoja x4</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>21000</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>63000</dTotOpeItem>
+          <dTotOpeGs>63000</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>57272</dBasGravIVA>
+          <dLiqIVAItem>5728</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>SAL0001</dCodInt>
+        <dDesProSer>Sal fina yodada 500g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>4500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>13500</dTotOpeItem>
+          <dTotOpeGs>13500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>12272</dBasGravIVA>
+          <dLiqIVAItem>1228</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>VINAGR1</dCodInt>
+        <dDesProSer>Vinagre de alcohol 1L</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>2</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>6800</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>13600</dTotOpeItem>
+          <dTotOpeGs>13600</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>5</dTasaIVA>
+          <dBasGravIVA>12952</dBasGravIVA>
+          <dLiqIVAItem>648</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>MAYONS1</dCodInt>
+        <dDesProSer>Mayonesa clásica 500g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>2</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>18900</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>37800</dTotOpeItem>
+          <dTotOpeGs>37800</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>5</dTasaIVA>
+          <dBasGravIVA>36000</dBasGravIVA>
+          <dLiqIVAItem>1800</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>KETCHP1</dCodInt>
+        <dDesProSer>Ketchup frasco 400g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>2</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>16500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>33000</dTotOpeItem>
+          <dTotOpeGs>33000</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>5</dTasaIVA>
+          <dBasGravIVA>31428</dBasGravIVA>
+          <dLiqIVAItem>1572</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>MANTE01</dCodInt>
+        <dDesProSer>Manteca vegetal 200g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>11200</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>33600</dTotOpeItem>
+          <dTotOpeGs>33600</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>30545</dBasGravIVA>
+          <dLiqIVAItem>3055</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>QUESOM1</dCodInt>
+        <dDesProSer>Queso mozzarella 1kg</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>85000</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>255000</dTotOpeItem>
+          <dTotOpeGs>255000</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>231818</dBasGravIVA>
+          <dLiqIVAItem>23182</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>JAMON01</dCodInt>
+        <dDesProSer>Jamón cocido feteado 200g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>32000</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>96000</dTotOpeItem>
+          <dTotOpeGs>96000</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>87272</dBasGravIVA>
+          <dLiqIVAItem>8728</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>YOGURT1</dCodInt>
+        <dDesProSer>Yogurt natural entero 1L</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>17500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>52500</dTotOpeItem>
+          <dTotOpeGs>52500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>47727</dBasGravIVA>
+          <dLiqIVAItem>4773</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>PAN001</dCodInt>
+        <dDesProSer>Pan lactal integral 500g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>13800</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>41400</dTotOpeItem>
+          <dTotOpeGs>41400</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>37636</dBasGravIVA>
+          <dLiqIVAItem>3764</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>CEREAL1</dCodInt>
+        <dDesProSer>Cereal de maíz azucarado 500g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>29500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>88500</dTotOpeItem>
+          <dTotOpeGs>88500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>80454</dBasGravIVA>
+          <dLiqIVAItem>8046</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>TOMATE1</dCodInt>
+        <dDesProSer>Tomate perita en lata 400g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>8900</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>26700</dTotOpeItem>
+          <dTotOpeGs>26700</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>24272</dBasGravIVA>
+          <dLiqIVAItem>2428</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>ARVEJA1</dCodInt>
+        <dDesProSer>Arvejas en lata 300g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>7600</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>22800</dTotOpeItem>
+          <dTotOpeGs>22800</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>20727</dBasGravIVA>
+          <dLiqIVAItem>2073</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>CHOCLO1</dCodInt>
+        <dDesProSer>Choclo cremoso en lata 300g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>9200</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>27600</dTotOpeItem>
+          <dTotOpeGs>27600</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>25090</dBasGravIVA>
+          <dLiqIVAItem>2510</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>DULCE01</dCodInt>
+        <dDesProSer>Dulce de leche 500g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>19800</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>59400</dTotOpeItem>
+          <dTotOpeGs>59400</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>54000</dBasGravIVA>
+          <dLiqIVAItem>5400</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>MERMEL1</dCodInt>
+        <dDesProSer>Mermelada de frutilla 450g</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>2</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>16200</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>32400</dTotOpeItem>
+          <dTotOpeGs>32400</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>5</dTasaIVA>
+          <dBasGravIVA>30857</dBasGravIVA>
+          <dLiqIVAItem>1543</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>AGUA001</dCodInt>
+        <dDesProSer>Agua mineral sin gas 2.5L</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>7500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>22500</dTotOpeItem>
+          <dTotOpeGs>22500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>20454</dBasGravIVA>
+          <dLiqIVAItem>2046</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>GASEOS1</dCodInt>
+        <dDesProSer>Gaseosa cola 2.25L</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>14500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>43500</dTotOpeItem>
+          <dTotOpeGs>43500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>39545</dBasGravIVA>
+          <dLiqIVAItem>3955</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>CERVEZ1</dCodInt>
+        <dDesProSer>Cerveza rubia lata 473ml x6</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>45000</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>135000</dTotOpeItem>
+          <dTotOpeGs>135000</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>122727</dBasGravIVA>
+          <dLiqIVAItem>12273</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>VINO001</dCodInt>
+        <dDesProSer>Vino tinto reserva 750ml</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>2</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>68000</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>136000</dTotOpeItem>
+          <dTotOpeGs>136000</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>5</dTasaIVA>
+          <dBasGravIVA>129523</dBasGravIVA>
+          <dLiqIVAItem>6477</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>LIMPIA1</dCodInt>
+        <dDesProSer>Limpiador multiuso 900ml</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>13500</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>40500</dTotOpeItem>
+          <dTotOpeGs>40500</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>36818</dBasGravIVA>
+          <dLiqIVAItem>3682</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+      <gCamItem>
+        <dCodInt>ESPONJ1</dCodInt>
+        <dDesProSer>Esponja doble uso pack x3</dDesProSer>
+        <cUniMed>77</cUniMed>
+        <dDesUniMed>UNI</dDesUniMed>
+        <dCantProSer>3</dCantProSer>
+        <gValorItem>
+          <dPUniProSer>8200</dPUniProSer>
+          <dDescItem>0</dDescItem>
+          <dTotOpeItem>24600</dTotOpeItem>
+          <dTotOpeGs>24600</dTotOpeGs>
+        </gValorItem>
+        <gCamIVA>
+          <iAfecIVA>1</iAfecIVA>
+          <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+          <dPropIVA>100</dPropIVA>
+          <dTasaIVA>10</dTasaIVA>
+          <dBasGravIVA>22363</dBasGravIVA>
+          <dLiqIVAItem>2237</dLiqIVAItem>
+        </gCamIVA>
+      </gCamItem>
+    </gDtipDE>
+    <gTotSub>
+      <dSub10>1668000</dSub10>
+      <dSub5>252800</dSub5>
+      <dTotOpe>1920800</dTotOpe>
+      <dTotDesc>0</dTotDesc>
+      <dPorcDescTotal>0</dPorcDescTotal>
+      <dDescTotal>0</dDescTotal>
+      <dAnticipo>0</dAnticipo>
+      <dRedon>0</dRedon>
+      <dTotGralOpe>1920800</dTotGralOpe>
+      <dIVA10>151637</dIVA10>
+      <dIVA5>12039</dIVA5>
+      <dBaseGrav10>1516363</dBaseGrav10>
+      <dBaseGrav5>240761</dBaseGrav5>
+      <dTBasGraIVA>1757124</dTBasGraIVA>
+      <dTotIVA>163676</dTotIVA>
+      <dTotalGs>1920800</dTotalGs>
+    </gTotSub>
+  </DE>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="">
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>PLACEHOLDER</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>PLACEHOLDER</ds:SignatureValue>
+  </ds:Signature>
+  <gCamFuFD>
+    <dCarQR>https://ekuatia.set.gov.py/consultas/qr?nVersion=150</dCarQR>
+  </gCamFuFD>
+</rDE>
